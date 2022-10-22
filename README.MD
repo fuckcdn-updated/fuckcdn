@@ -20,4 +20,6 @@ The program provides a method of "obtaining IP segments based on scanning subdom
 5. Support to adjust the masscan rate (rate)
 
 ## Installation Environment - Updated by Cheeze - old codes and method
-```git clone https://github.com/fuckcdn-updated/fuckcdn.git && cd fuckcdn && sudo apt -y update && sudo add-apt-repository universe && sudo apt -y install python2.7 && sudo apt -y install curl && curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py && sudo python2 get-pip.py && pip2 install --upgrade pip setuptools wheel && sudo apt-get -y install libxml2-dev libxmlsec1-dev && sudo apt-get -y install python-dev && sudo apt-get -y install libffi-dev && pip2 install gevent dnspython && sudo apt-get -y install libpcap* && chmod +x * && chmod +x bin/linux_64/masscan```
+```sh
+git clone https://github.com/fuckcdn-updated/fuckcdn.git && cd fuckcdn && sudo apt -y update && sudo add-apt-repository universe && sudo apt -y install python2.7 && sudo apt -y install curl && curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py && sudo python2 get-pip.py && pip2 install --upgrade pip setuptools wheel && sudo apt-get -y install libxml2-dev libxmlsec1-dev && sudo apt-get -y install python-dev && sudo apt-get -y install libffi-dev && pip2 install gevent dnspython && sudo apt-get -y install libpcap* && chmod +x * && chmod +x bin/linux_64/masscan
+```
